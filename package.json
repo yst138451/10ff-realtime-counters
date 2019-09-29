@@ -1,0 +1,25 @@
+{
+  "name": "10ff-realtime-counters",
+  "version": "1.0.0",
+  "description": "Unofficial realtime counters for 10FF",
+  "private": true,
+  "main": "src/main.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-wrap": "^0.15.0"
+  },
+  "scripts": {
+    "start": "gulp build"
+  },
+  "author": {
+    "name": "Yom S",
+    "email": "kodemoar@gmail.com"
+  },
+  "license": "MIT"
+}

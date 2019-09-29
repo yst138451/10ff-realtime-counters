@@ -1,0 +1,12 @@
+{
+  "wpmCounter": {
+    "styles": {
+      "color": "#de1531",
+      "fontSize": "1.3em",
+      "fontFamily": "Roboto, monospace"
+    }
+  },
+  "progressBar": {
+    "fillColor": "rgba(210, 150, 122, 0.2)"
+  }
+}
