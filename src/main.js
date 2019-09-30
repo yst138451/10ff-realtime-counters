@@ -1,3 +1,15 @@
+// Validations
+const appUri = /https:\/\/10fastfingers\.com\/typing-test\/\w+/i;
+
+if (!appUri.test(window.location.href)) {
+  alert('Please go to the typing test page and execute this script again.');
+  return false;
+}
+
+if ($('.wpm-container').length) {
+  return false;
+}
+
 // Layout and positioning
 const
   $row = $('#speedtest-main > div.row:first').css({
