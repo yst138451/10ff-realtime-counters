@@ -1,6 +1,5 @@
 # Unofficial Realtime WPM Counter for 10FF
-*A self-contained script for "injecting" additional functionalities on 10FF.*
-It's all about improved typing experience.
+*A self-contained script for "injecting" additional functionalities on 10FF. It's all about improved typing experience.*
 
 ![Screenshot 1](/src/assets/images/scrshot_01.png "Showing WPM counter at top right corner.")
 
