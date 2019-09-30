@@ -10,7 +10,7 @@ Results might not be in perfect sync since we're calculating the scores client-s
 - Beer-filling-up progress bar.  
     **Note**: Click on the default countdown timer to show/hide it and type on with this!
 
-## Configurations (optional)
+## 🔧 Configurations (optional)
 Head over to `src` folder and open up the [`config.json`](/src/config.json) file, make your desired changes and reproduce the target script by running `npm start`.
 
 Default options:
@@ -31,7 +31,7 @@ Default options:
 The `styles` options are essentially the [common CSS properties][link-css-prop] which let you further customize the counters look.
 
 ## ❓ How to use
-### 🔖 [Bookmarklet](https://en.wikipedia.org/wiki/Bookmarklet)
+### [Bookmarklet](https://en.wikipedia.org/wiki/Bookmarklet)
 To create one, do the following:
 1. Run `npm start` (non-programming users can ignore this step), then
 1. Locate the output file (called "[**10ff-realtime-counters.min.js**][script-file]") inside the [`dist`](/dist/) folder.
@@ -45,10 +45,10 @@ To create one, do the following:
 
 1. At this point, go to the [10FF site][10ff], click on this bookmark and enjoy! :)
 
-### 🚀 Chrome extension
+### Chrome extension
 Coming soon!
 
-### 📜 License
+## 📜 License
 [MIT](/LICENSE)
 
 [10ff]: https://10fastfingers.com/
