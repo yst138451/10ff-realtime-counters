@@ -1,6 +1,5 @@
 # Unofficial Realtime WPM Counter for 10FF
-*A self-contained script for "injecting" additional functionalities on 10FF.*
-It's all about improved typing experience.
+*A self-contained script for "injecting" additional functionalities on 10FF. It's all about improved typing experience.*
 
 ![Screenshot 1](/src/assets/images/scrshot_01.png "Showing WPM counter at top right corner.")
 
@@ -14,7 +13,7 @@ Results might not be in perfect sync since we're calculating the scores client-s
 ## Configurations (optional)
 Head over to `src` folder and open up the [`config.json`](/src/config.json) file, make your desired changes and reproduce the target script by running `npm start`.
 
-### Default options
+Default options:
 ```json
 {
   "wpmCounter": {
