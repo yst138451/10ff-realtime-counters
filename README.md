@@ -11,6 +11,26 @@ Results might not be in perfect sync since we're calculating the scores client-s
 - Beer-filling-up progress bar.  
     **Note**: Click on the default countdown timer to show/hide it and type on with this!
 
+## Configurations (optional)
+Head over to `src` folder and open up the [`config.json`](/src/config.json) file, make your desired changes and reproduce the target script by running `npm start`.
+
+### Default options
+```json
+{
+  "wpmCounter": {
+    "styles": {
+      "color": "#de1531",
+      "fontSize": "1.3em",
+      "fontFamily": "Roboto, monospace"
+    }
+  },
+  "progressBar": {
+    "fillColor": "rgba(210, 150, 122, 0.2)"
+  }
+}
+```
+The `styles` options are essentially the [common CSS properties][link-css-prop] which let you further customize the counters look.
+
 ## ❓ How to use
 ### 🔖 [Bookmarklet](https://en.wikipedia.org/wiki/Bookmarklet)
 To create one, do the following:
@@ -35,3 +55,4 @@ Coming soon!
 [10ff]: https://10fastfingers.com/
 [bookmark]: https://support.google.com/chrome/answer/188842?co=GENIE.Platform%3DDesktop&hl=en
 [script-file]: /dist/10ff-realtime-counters.min.js
+[link-css-prop]: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference
