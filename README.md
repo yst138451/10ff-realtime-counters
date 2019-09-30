@@ -3,9 +3,9 @@
 
 ![Screenshot 1](/src/assets/images/scrshot_01.png "Showing WPM counter at top right corner.")
 
-Results might not be in perfect sync since we're calculating the scores client-side while the end result, server-side; but it's usually only a few CPMs off. It should still be reliable in giving you a quick heads-up on your possible achievement during the test.
+Results might not be in perfect sync since we're calculating the scores client-side while the final result, server-side; but it's usually only a few CPMs off, thus should still be reliable in giving you a quick heads-up on your potential achievement during the test.
 
-## 🌟 Features
+## 💠 Features
 - Realtime WPM counter (for sure).
 - Beer-filling-up progress bar.  
     **Note**: Click on the default countdown timer to show/hide it and type on with this!
@@ -31,7 +31,8 @@ Default options:
 The `styles` options are essentially the [common CSS properties][link-css-prop] which let you further customize the counters look.
 
 ## ❓ How to use
-### [Bookmarklet](https://en.wikipedia.org/wiki/Bookmarklet)
+### [Bookmarklet](https://en.wikipedia.org/wiki/Bookmarklet) (recommended for regular use)
+
 To create one, do the following:
 1. Run `npm start` (non-programming users can ignore this step), then
 1. Locate the output file (called "[**10ff-realtime-counters.min.js**][script-file]") inside the [`dist`](/dist/) folder.
@@ -45,7 +46,10 @@ To create one, do the following:
 
 1. At this point, go to the [10FF site][10ff], click on this bookmark and enjoy! :)
 
-### Chrome extension
+### Console Inject (the simplest, for one-off use)
+Bring up the browser console window on 10FF website by pressing <kbd>F12</kbd> for Windows or <kbd>Cmd+Option+J</kbd> for Mac, select the "Console" tab, paste the script into the text field, hit <kbd>Enter</kbd>, and voila!
+
+### Chrome Extension
 Coming soon!
 
 ## 📜 License
