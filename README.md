@@ -8,7 +8,7 @@ Results might not be in perfect sync since we're calculating the scores client-s
 ## 💠 Features
 - Realtime WPM counter (for sure).
 - Beer-filling-up progress bar.  
-    **Note**: Click on the default countdown timer to show/hide it and type on with this!
+    **Note**: Click on the countdown timer to turn it on/off and type on, undistracted!
 
 ## 🔧 Configurations (optional)
 Head over to `src` folder and open up the [`config.json`](/src/config.json) file, make your desired changes and reproduce the target script by running `npm start`.
@@ -31,7 +31,7 @@ Default options:
 The `styles` options are essentially the [common CSS properties][link-css-prop] which let you further customize the counters look.
 
 ## ❓ How to use
-### [Bookmarklet](https://en.wikipedia.org/wiki/Bookmarklet) (recommended for regular use)
+#### [Bookmarklet](https://en.wikipedia.org/wiki/Bookmarklet) (recommended for regular use)
 
 To create one, do the following:
 1. Run `npm start` (non-programming users can ignore this step), then
@@ -46,10 +46,10 @@ To create one, do the following:
 
 1. At this point, go to the [10FF site][10ff], click on this bookmark and enjoy! :)
 
-### Console Inject (the simplest, for one-off use)
+#### Console Inject (the simplest, for one-off use)
 Bring up the browser console window on 10FF website by pressing <kbd>F12</kbd> for Windows or <kbd>Cmd+Option+J</kbd> for Mac, select the "Console" tab, paste the script into the text field, hit <kbd>Enter</kbd>, and voila!
 
-### Chrome Extension
+#### Chrome Extension
 Coming soon!
 
 ## 📜 License
